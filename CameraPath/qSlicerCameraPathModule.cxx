@@ -69,7 +69,7 @@ QString qSlicerCameraPathModule::acknowledgementText() const
 QStringList qSlicerCameraPathModule::contributors() const
 {
   QStringList moduleContributors;
-  moduleContributors << QString("John Doe (AnyWare Corp.)");
+  moduleContributors << QString("Andinet Enquobahrie (Kitware Inc)");
   return moduleContributors;
 }
 
@@ -82,7 +82,7 @@ QIcon qSlicerCameraPathModule::icon() const
 //-----------------------------------------------------------------------------
 QStringList qSlicerCameraPathModule::categories() const
 {
-  return QStringList() << "Examples";
+  return QStringList() << "Virtual Visualization";
 }
 
 //-----------------------------------------------------------------------------
